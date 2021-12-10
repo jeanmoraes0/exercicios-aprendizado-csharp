@@ -13,6 +13,8 @@ namespace ex34.Entities
         {
             return Id
                 + ", "
+                + Name
+                + ", "
                 + Price.ToString("F2", CultureInfo.InvariantCulture)
                 + ", "
                 + Category.Name
